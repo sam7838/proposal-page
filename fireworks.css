@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Simple Fireworks Animation (you can enhance this with SVGs or external libraries) */
+.fireworks-container {
+    position: relative;
+}
+
+.fireworks {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    animation: explode 1s infinite;
+}
+
+@keyframes explode {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(3);
+        opacity: 0;
+    }
+}

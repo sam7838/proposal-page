@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff66b2; /* Magenta Pink Background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#yesBtn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336; /* Red */
+    color: white;
+    position: relative;
+}
